@@ -8854,6 +8854,8 @@ in
 
   serialdv = callPackage ../development/libraries/serialdv {  };
 
+  serialosc = callPackage ../development/libraries/serialosc { };
+
   serpent = callPackage ../development/compilers/serpent { };
 
   shmig = callPackage ../development/tools/database/shmig { };
@@ -12501,6 +12503,8 @@ in
   liblaxjson = callPackage ../development/libraries/liblaxjson { };
 
   liblo = callPackage ../development/libraries/liblo { };
+
+  libmonome = callPackage ../development/libraries/libmonome { };
 
   liblscp = callPackage ../development/libraries/liblscp { };
 
