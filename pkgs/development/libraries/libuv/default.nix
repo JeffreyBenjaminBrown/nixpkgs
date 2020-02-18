@@ -34,9 +34,9 @@ stdenv.mkDerivation rec {
         "tcp_open" "tcp_write_queue_order" "tcp_try_write" "tcp_writealot"
         "multiple_listen" "delayed_accept"
         "shutdown_close_tcp" "shutdown_eof" "shutdown_twice" "callback_stack"
-        "tty_pty" "condvar_5"
+        "tty_pty" "condvar_5" "hrtime"
         # Tests that fail when sandboxing is enabled.
-        "fs_event_close_in_callback" "fs_event_watch_dir"
+        "fs_event_close_in_callback" "fs_event_watch_dir" "fs_event_error_reporting"
         "fs_event_watch_dir_recursive" "fs_event_watch_file"
         "fs_event_watch_file_current_dir" "fs_event_watch_file_exact_path"
         "process_priority" "udp_create_early_bad_bind"
